@@ -1,0 +1,37 @@
+.overlay {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1000; 
+  }
+  
+  .login-form {
+    width: 400px; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .form-buttons {
+    display: flex;
+  }
+  
+  .half-width {
+    flex: 1;
+    margin-right: 5px; 
+  }
+
+  .link-azul {
+    color: blue; 
+    /* text-decoration: underline; */
+  }
+  
+  .forgot-register-links p {
+    margin-top: 5px; 
+  }
